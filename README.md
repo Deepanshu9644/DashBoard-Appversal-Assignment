@@ -15,45 +15,35 @@ The application was designed to meticulously follow the specifications from the 
 [**Figma Design Link**]https://www.figma.com/design/HdQf17TQGkKEmYL5hbjc4T/Task?node-id=1-2&t=VpyyaVAzDdHwlqzS-0
 
 ---
-✨ Features
+##✨ Features
 
-Responsive Design: Works seamlessly on desktop, tablet, and mobile.
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile.
 
-Interactive Dashboard: Displays KPIs at a glance with a clean and intuitive layout.
+- **Interactive Dashboard**: Displays KPIs at a glance with a clean and intuitive layout.
 
-State Management: Centralized and predictable state handled by Redux Toolkit.
+- **State Management**: Centralized and predictable state handled by Redux Toolkit.
 
-Data Visualization:
+- **Data Visualization**:
 
-Trends Line Chart with gradient fill (via Recharts).
+- Trends Line Chart with gradient fill (via Recharts).
 
-Interactive World Map Heatmap with zoom, pan, and tooltips.
+- Interactive World Map Heatmap with zoom, pan, and tooltips.
 
-Dynamic Data Tables:
 
-Top List Table with sortable and color-coded cells.
+## Tech Stack
 
-Biggest Changes Table with inline bar charts for performance shifts.
+This project is built with a modern frontend tech stack:
 
-Smooth Animations: Built using Framer Motion for fluid transitions.
+-   **React 18+**: Leveraging functional components and hooks for building the UI.
+-   **TypeScript**: For static typing and improved developer experience.
+-   **Redux Toolkit**: The recommended approach for efficient Redux development and state management.
+-   **Tailwind CSS**: A utility-first CSS framework for rapid and precise styling.
+-   **Recharts**: A composable charting library for creating beautiful data visualizations.
+-   **Framer Motion**: A production-ready motion library for creating fluid animations.
+-   **React Table** (Concept): The table components are built to be interactive, aligning with the principles of libraries like React Table.
 
-Reusable Component Architecture: Modular React components ensure scalability.
+---
 
-🛠 Tech Stack
-
-React 18+ – Functional components & hooks
-
-TypeScript – Static typing for better DX
-
-Redux Toolkit – Scalable and efficient state management
-
-Tailwind CSS – Utility-first, responsive styling
-
-Recharts – Elegant charting library
-
-Framer Motion – Powerful animations
-
-React Table (Concepts) – For building interactive tables
 
 #📂 Project Structure
 ```
