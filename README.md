@@ -56,6 +56,7 @@ Framer Motion – Powerful animations
 React Table (Concepts) – For building interactive tables
 
 #📂 Project Structure
+```
 /
 ├── public/
 ├── src/
@@ -80,6 +81,7 @@ React Table (Concepts) – For building interactive tables
 │   ├── index.tsx                # App entry point
 │   └── types.ts                 # TypeScript type definitions
 └── README.md
+```
 
 ## Getting Started
 
