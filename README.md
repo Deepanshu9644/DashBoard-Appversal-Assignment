@@ -15,6 +15,73 @@ The application was designed to meticulously follow the specifications from the 
 [**Figma Design Link**]https://www.figma.com/design/HdQf17TQGkKEmYL5hbjc4T/Task?node-id=1-2&t=VpyyaVAzDdHwlqzS-0
 
 ---
+✨ Features
+
+Responsive Design: Works seamlessly on desktop, tablet, and mobile.
+
+Interactive Dashboard: Displays KPIs at a glance with a clean and intuitive layout.
+
+State Management: Centralized and predictable state handled by Redux Toolkit.
+
+Data Visualization:
+
+Trends Line Chart with gradient fill (via Recharts).
+
+Interactive World Map Heatmap with zoom, pan, and tooltips.
+
+Dynamic Data Tables:
+
+Top List Table with sortable and color-coded cells.
+
+Biggest Changes Table with inline bar charts for performance shifts.
+
+Smooth Animations: Built using Framer Motion for fluid transitions.
+
+Reusable Component Architecture: Modular React components ensure scalability.
+
+🛠 Tech Stack
+
+React 18+ – Functional components & hooks
+
+TypeScript – Static typing for better DX
+
+Redux Toolkit – Scalable and efficient state management
+
+Tailwind CSS – Utility-first, responsive styling
+
+Recharts – Elegant charting library
+
+Framer Motion – Powerful animations
+
+React Table (Concepts) – For building interactive tables
+
+#📂 Project Structure
+/
+├── public/
+├── src/
+│   ├── app/
+│   │   └── store.ts             # Redux store configuration
+│   ├── components/
+│   │   ├── ui/                  # Shared UI components 
+│   │   ├── BiggestChanges.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Header.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── Storefronts.tsx
+│   │   ├── Summary.tsx
+│   │   ├── TopList.tsx
+│   │   └── Trends.tsx
+│   ├── features/
+│   │   └── dashboard/
+│   │       └── dashboardSlice.ts # Redux slice for dashboard
+│   ├── App.tsx                  # Main app component
+│   ├── constants.tsx            # Icons, constants, mock data
+│   ├── index.html
+│   ├── index.tsx                # App entry point
+│   └── types.ts                 # TypeScript type definitions
+└── README.md
+
+
 
 ## Features
 
@@ -90,16 +157,6 @@ Make sure you have Node.js and a package manager (npm or yarn) installed on your
 -   Node.js (v16 or later recommended)
 -   npm (`npm install -g npm`) or yarn (`npm install -g yarn`)
 
-### Installation
-
-1.  **Clone the repository:**
-    ```sh
-    git clone https://github.com/KabirSingh-1/DashBoard-Appversal
-    ```
-2.  **Navigate to the project directory:**
-    ```sh
-    cd DashBoard-Appversal
-    ```
 3.  **Install dependencies:**
     This project uses CDN-based imports defined in an `importmap` in `index.html`, so no `npm install` is required for the core libraries. For a typical local setup, you would run:
     ```sh
