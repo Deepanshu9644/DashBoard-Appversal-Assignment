@@ -6,7 +6,7 @@ This project is a pixel-perfect analytics dashboard designed to track Apple Sear
 
 A live demo of the application is available at the following URL:
 
-[**Live Demo URL**](https://dashboard-appversal.netlify.app/)
+[**Live Demo URL**](https://dashboard-appversal.netlify.app](https://dash-board-appversal-assignment.vercel.app/)
 
 ## Figma Design Reference
 
